@@ -15,7 +15,7 @@ function createMenuItem(name, cost, category){
 /* Task 1b: use your function to create 3 more menu items. You may add any items to the menu that you'd like */
 
 //console.log(createMenuItem('sashimi', 19, 'Lunch'))
-//console.log(createMenuItem('nasi goreng', 5, 'Lunch'))
+//console.log(createMenuItem('Fruit bowl', 5, 'Breakfast'))
 
 
 /* Task 2: You're having a lunch special! 25% off for teachers and students, 
@@ -43,7 +43,7 @@ const burger = {name: "Burger", price: 18, category: "Lunch",
  }
 };
 
-console.log(burger.discount("Public"))
+//console.log(burger.discount("Public"))
 
 
 ///////////////Reviews (MVP)///////////////////
