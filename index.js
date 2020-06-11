@@ -72,7 +72,7 @@ const reviews = [{name: "Daniela", rating: 5, feedback:"Beautiful atmosphere and
 
 /* Task 6: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"*/
  
-  //reviews[7].feedback = "this place is chill with really cool people, great for getting work done on weekdays"
+  reviews[7].feedback = "this place is chill with really cool people, great for getting work done on weekdays"
   //console.log(reviews);
 
 /*  Task 7: Write a function to return a review based on the index of the review in the array.
@@ -105,9 +105,9 @@ and should return a string in the format `name} gave the restaurant a {rating}, 
 For example, if getLastReview is invoked passing the reviews array it will return `Reyna gave the restaurant a 3.5 star review and their feedback was: "this place is chill with really cool people, great for getting work done on weekdays"`.
 */
 function getLastReview(arr) {
-    return arr[0];
+    return arr[arr.length -1];
   } 
-//console.log(getLastReview(reviews));
+///console.log(getLastReview(reviews));
 
 ///////////////🍔☕️🍽 STRETCH🍔☕️🍽////////////////////
 
