@@ -32,11 +32,12 @@ For example, burger.discount("teacher") would return 13.5 and burger.discount("p
 
 
 const burger = {name: "Burger", price: 18, category: "Lunch",
- discount: function() {
-   if (burger.discount === "Teacher" || "Student") {
+ discount: function(citizen) {
+   
+   if (citizen === "Teacher" || citizen === "Student") {
      return 13.5
    }
-   else  (burger.discount === "Public"); {
+   if (citizen === "Public"); {
      return 16.2
    }
  }
@@ -106,7 +107,7 @@ For example, if getLastReview is invoked passing the reviews array it will retur
 function getLastReview(arr) {
     return arr[0];
   } 
-console.log(getLastReview(reviews));
+//console.log(getLastReview(reviews));
 
 ///////////////🍔☕️🍽 STRETCH🍔☕️🍽////////////////////
 
